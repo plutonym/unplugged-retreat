@@ -97,6 +97,197 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*******************Base styles*****************/
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*******************Mobile styles*****************/
+/******Header-footer styles**********/
+
+.header-divider {
+
+}
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**************Homepage base styles**********/
+/******Headline styles**********/
+main .headline-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+/******newsletter/signup styles**********/
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/******features styles**********/
+section .features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+div .feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+section .reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/******About page base styles**********/
+/******Mission styles**********/
+section .mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+/******Map styles**********/
+
+/******Contact styles**********/
+section .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/******faq page base styles**********/
+/******faq styles**********/
+section .faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+section .faq-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+
+/*******************Tablet styles*****************/
+/******Header-footer styles**********/
+
+/******Homepage styles**********/
+
+/******Headline styles**********/
+/******newsletter styles**********/
+/******signup styles**********/
+/******features styles**********/
+
+
+/******About page styles**********/
+/******Mission styles**********/
+/******Map styles**********/
+/******Contact styles**********/
+
+/******faq page styles**********/
+/******faq styles**********/
+
+
+
+/*******************Desktop styles*****************/
+/******Header-footer styles**********/
+.header-divider {
+
+}
+/******Homepage styles**********/
+
+/******Headline styles**********/
+/******newsletter styles**********/
+/******signup styles**********/
+/******features styles**********/
+
+
+/******About page styles**********/
+/******Mission styles**********/
+/******Map styles**********/
+/******Contact styles**********/
+
+/******faq page styles**********/
+/******faq styles**********/
+.content-wrapper {
+
+}
+
+
+
+
+
+.newsletter {
+
+}
+
+.signup {
+
+}
+
+.features {
+
+}
+
+.feature-items {
+
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+.reviews {
+
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +454,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
