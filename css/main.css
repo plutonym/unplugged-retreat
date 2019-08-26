@@ -104,30 +104,49 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 360px;
 }
-
+main {
+  width: 360px;
+}
 /*******************Mobile styles*****************/
 /******Header-footer styles**********/
-
+header {
+  padding: 15px 0;
+}
 .header-divider {
-
+  width: 100%;
 }
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+}
+header .content-wrapper p {
+  margin: 0px;
 }
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+}
+header nav ul li {
+  display: inline;
+  margin: 15px 0;
+}
+footer .content-wrapper {
+  width: 55%;
+  margin: 55px 0;
 }
 footer .social {
   display: flex;
@@ -138,6 +157,9 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+footer p {
+  margin: 0px;
 }
 /**************Homepage base styles**********/
 /******Headline styles**********/
@@ -161,6 +183,8 @@ section .features {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  margin: 0;
 }
 div .feature-items {
   display: flex;
@@ -174,7 +198,12 @@ section .reviews {
   align-items: center;
   flex-flow: row wrap;
 }
-
+section h3 {
+  width: 60%;
+}
+footer p {
+  margin: 0px;
+}
 /******About page base styles**********/
 /******Mission styles**********/
 section .mission {
@@ -268,9 +297,7 @@ section .faq-content {
 
 }
 
-.features {
 
-}
 
 .feature-items {
 
