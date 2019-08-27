@@ -240,82 +240,6 @@ section .faq-content {
 
 
 
-/*******************Tablet styles*****************/
-/******Header-footer styles**********/
-
-/******Homepage styles**********/
-
-/******Headline styles**********/
-/******newsletter styles**********/
-/******signup styles**********/
-/******features styles**********/
-
-
-/******About page styles**********/
-/******Mission styles**********/
-/******Map styles**********/
-/******Contact styles**********/
-
-/******faq page styles**********/
-/******faq styles**********/
-
-
-
-/*******************Desktop styles*****************/
-/******Header-footer styles**********/
-.header-divider {
-
-}
-/******Homepage styles**********/
-
-/******Headline styles**********/
-/******newsletter styles**********/
-/******signup styles**********/
-/******features styles**********/
-
-
-/******About page styles**********/
-/******Mission styles**********/
-/******Map styles**********/
-/******Contact styles**********/
-
-/******faq page styles**********/
-/******faq styles**********/
-.content-wrapper {
-
-}
-
-
-
-
-
-.newsletter {
-
-}
-
-.signup {
-
-}
-
-
-
-.feature-items {
-
-}
-
-.fontawesome-icon {
-
-}
-
-.features-item-description {
-
-}
-
-.reviews {
-
-}
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -405,9 +329,125 @@ section .faq-content {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*******************Tablet styles*****************/
+
+  /******Header-footer styles**********/
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 660px;
+  }
+  main {
+    width: 660px;
+  }
+/******Homepage styles**********/
+  /******Headline styles**********/
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  /******newsletter styles**********/
+  aside .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  /******signup styles**********/
+  /******features styles**********/
+  section .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: auto;
+    width: 60%;
+    margin: 0;
+  }
+  section .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+/******About page styles**********/
+  /******Mission styles**********/
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mission-content p {
+    width: 75%;
+  }
+
+  /******Map styles**********/
+  /******Contact styles**********/
+.contact-section .content-wrapper h2 {
+  width: 75%;
 }
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******faq page styles**********/
+  /******faq styles**********/
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+  section .faq-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+  }
+  .faq h2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+/*******************Desktop styles*****************/
+/******Header-footer styles**********/
+.header-divider {
+
+}
+/******Homepage styles**********/
+
+/******Headline styles**********/
+/******newsletter styles**********/
+/******signup styles**********/
+/******features styles**********/
+
+
+/******About page styles**********/
+/******Mission styles**********/
+/******Map styles**********/
+/******Contact styles**********/
+
+/******faq page styles**********/
+/******faq styles**********/
+}
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
