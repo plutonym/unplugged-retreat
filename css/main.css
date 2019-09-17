@@ -329,20 +329,53 @@ section .faq-content {
    Modify as content requires.
    ========================================================================== */
 
+/*******************Tablet styles*****************/
 @media only screen and (min-width: 768px) {
-  /*******************Tablet styles*****************/
-
+  /*********Main Styles*********************/
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
   /******Header-footer styles**********/
-  header,
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 640px;
+  }
+  header .content-wrapper {
+    width: 75%;
+  }
+  header nav {
+    width: 65%;
+  }
+  header nav ul {
+
+  }
+  .header-divider {
+    display: none;
+  }
+
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 660px;
+    width: 640px;
   }
-  main {
-    width: 660px;
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+  .footer-content {
+
+  }
+  footer .contact {
+    margin-bottom: 0;
+  }
+  footer .copyright {
+    width: 65%;
   }
 /******Homepage styles**********/
   /******Headline styles**********/
@@ -366,6 +399,11 @@ section .faq-content {
     align-items: center;
     flex-flow: row wrap;
   }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 65%;
+    margin: 0;
+  }
   /******signup styles**********/
   /******features styles**********/
   section .features article {
@@ -377,13 +415,24 @@ section .faq-content {
     width: 60%;
     margin: 0;
   }
+  .features article {
+
+  }
+  .features .features-item-description {
+    width: 65%;
+  }
   section .reviews {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
+  .reviews article {
 
+  }
+  .reviews article div {
+    width: 65%;
+  }
 /******About page styles**********/
   /******Mission styles**********/
   .mission-content {
@@ -407,7 +456,6 @@ section .faq-content {
 }
 
 /******faq page styles**********/
-  /******faq styles**********/
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -421,29 +469,60 @@ section .faq-content {
   .faq h2 {
     width: 100%;
   }
+
 }
 
-@media only screen and (min-width: 1200px) {
 /*******************Desktop styles*****************/
+@media only screen and (min-width: 1200px) {
 /******Header-footer styles**********/
-.header-divider {
-
-}
+  .content-wrapper {
+    max-width: 960px;
+  }
 /******Homepage styles**********/
-
 /******Headline styles**********/
+  .hero-area h1 {
+    width; 90%;
+  }
+
 /******newsletter styles**********/
+
 /******signup styles**********/
+  aside .content-wrapper {
+    justify-content: center;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 90%;
+  }
 /******features styles**********/
-
-
+  .features h2 {
+    width: 90%;
+  }
+  .features article {
+    flex-basis: auto;
+  }
+  .reviews article div {
+    width: 90%;
+  }
 /******About page styles**********/
 /******Mission styles**********/
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 90%;
+  }
+  .contact-section .content-wrapper h2 {
+    margin-bottom: auto;
+  }
 /******Map styles**********/
 /******Contact styles**********/
 
 /******faq page styles**********/
-/******faq styles**********/
+  .faq h2 {
+    width: 100%;
+  }
+  .faq-content {
+    flex-basis: auto;
+  }
 }
 
 
