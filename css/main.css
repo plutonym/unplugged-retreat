@@ -104,11 +104,53 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 360px;
+  /*width: 360px;*/
 }
 main {
   width: 360px;
 }
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+ul, ol {
+  list-style-type: none;
+}
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.875em;
+}
+h3,h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+p {
+  font-size: 0.875em;
+  line-height: 1.285;
+}
+img {
+
+}
+figure {
+
+}
+address {
+  font-style: normal;
+}
+
 /*******************Mobile styles*****************/
 /******Header-footer styles**********/
 header {
@@ -116,13 +158,16 @@ header {
 }
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  margin: 0;
+  /*width: 60%;*/
 }
 header .content-wrapper p {
   margin: 0px;
@@ -137,8 +182,8 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 50%;
+  /*align-items: center;*/
+  width: 100%;
 }
 header nav ul li {
   display: inline;
@@ -146,7 +191,7 @@ header nav ul li {
 }
 footer .content-wrapper {
   width: 55%;
-  margin: 55px 0;
+  margin: 50px 0;
 }
 footer .social {
   display: flex;
